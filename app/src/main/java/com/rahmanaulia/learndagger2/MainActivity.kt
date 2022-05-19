@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         val user = User()
         user.name = "Aulia Rahman"
-        user.age = 10
+        user.age = 26
         user.address = "Cimahi hmm hayu"
 
         val gson = GsonBuilder().excludeFieldsWithoutExposeAnnotation().create()
